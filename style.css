@@ -1,0 +1,162 @@
+/* Global style */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #171b4a;
+}
+
+
+/* Navigation */
+
+nav {
+    width: auto;
+    border: 5px solid #0b1163;
+    background-image: url('images/gray-dotted-background.jpg');
+    background-color: white;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: .7rem 1rem;
+    padding: 1rem;
+}
+
+nav li:hover {
+    background-color: #4b4c59;
+    border-radius: 4px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Franklin Gothic Medium;
+    padding: 1rem;
+    color: #0c4d4a;
+}
+
+
+/* Side menu */
+
+.side-menu {
+    width: 25%;
+    float: right;
+    border: 2px solid #1c1d1f;
+    text-align: center;
+    margin: 2rem 1.5rem;
+    padding: .5rem;
+}
+
+.side-unlist {
+    list-style-type: none;
+}
+
+.side-headlines {
+    color: #ab1909;
+    padding: 1rem;
+}
+
+.side-list,
+a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #CBDE1F;
+}
+
+.side-list:hover,
+.side-list:hover a {
+    background-color: #CBDE1F;
+    border-radius: 4px;
+    color: #030303;
+}
+
+
+/* Date time */
+
+.date-time {
+    border: 2px solid #1c1d1f;
+    text-align: center;
+    margin: 0.5rem 1.5rem;
+    padding: .5rem;
+    background-color: #4b4c59;
+    color: #fff;
+}
+
+
+/* Home section */
+
+.home {
+    margin: 2rem 10rem;
+    color: #fff;
+}
+
+.dev-picture {
+    width: 45rem;
+    margin-top: 2rem;
+}
+
+.headlines {
+    width: 25rem;
+    border: 2px solid #000;
+    background-color: gray;
+    margin: 2rem 2rem;
+    padding: 0.8rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.headlines h3 {
+    padding: 0.5rem;
+}
+
+.headlines h1 {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+
+/* News section */
+
+.content-news {
+    width: 50rem;
+    border: 2px solid #000;
+    background: gray;
+    margin: 3rem 4rem;
+    padding: 0.8rem;
+    font-weight: 100;
+    text-align: justify;
+    display: inline-block;
+}
+
+
+/* About me */
+
+.about {
+    width: 50rem;
+    margin: 3rem auto;
+    color: #fff;
+}
+
+.senad {
+    width: 150px;
+}
+
+.name {
+    padding: 1rem 0;
+}
+
+.about-para {
+    line-height: 1.5;
+}
+
+.work-link:hover {
+    color: rgba(203, 222, 31, 0.4);
+}
